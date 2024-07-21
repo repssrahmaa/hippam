@@ -106,67 +106,54 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Bayar Tagihan</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Daftar Pembayaran</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Beranda</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Bayar Tagihan</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Daftar Pembayaran</a></li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Quote Start -->
-    <div class="container-fluid bg-light overflow-hidden px-lg-0" style="margin: 6rem 0;">
-        <div class="container quote px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/POSTER PWL.png" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Bayar Tagihan</h1>
-                        </div>
-                        <p class="mb-4 pb-2">Yuk bayar tagihan Anda sebelum batas pembayaran!</p>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="ID PELANGGAN" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="NO TELEPON" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="JUMLAH TAGIHAN: Rp 50.000" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
-                                        <option selected>Pilih Metode Pembayaran</option>
-                                        <option value="1">Shopeepay</option>
-                                        <option value="2">Gopay</option>
-                                        <option value="3">Transfer Bank</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Catatan (opsional)"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Quote End -->
-        
+<!-- Table Start --> 
+    <table style="width: 70%; margin: auto; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">Nomor</th>
+                <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">ID Pelanggan</th>
+                <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">Jumlah Pembayaran</th>
+                <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">Metode Pembayaran</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Contoh Data, ini bisa diisi dengan data dinamis dari server -->
+            <tr>
+                <td style="border: 1px solid black; padding: 8px;">1</td>
+                <td style="border: 1px solid black; padding: 8px;">P001</td>
+                <td style="border: 1px solid black; padding: 8px;">Rp 100.000</td>
+                <td style="border: 1px solid black; padding: 8px;">Gopay</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 8px;">2</td>
+                <td style="border: 1px solid black; padding: 8px;">P002</td>
+                <td style="border: 1px solid black; padding: 8px;">Rp 200.000</td>
+                <td style="border: 1px solid black; padding: 8px;">Transfer Bank</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 8px;">3</td>
+                <td style="border: 1px solid black; padding: 8px;">P003</td>
+                <td style="border: 1px solid black; padding: 8px;">Rp 150.000</td>
+                <td style="border: 1px solid black; padding: 8px;">Shopeepay</td>
+            </tr>
+            <!-- Tambahkan lebih banyak data sesuai kebutuhan -->
+        </tbody>
+        <tbody>
+            
+        </tbody>
+    </table>
+     <!-- Table End -->      
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
